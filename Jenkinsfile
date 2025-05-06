@@ -48,6 +48,8 @@ pipeline{
             }
             steps{
                 sh '''
+                    netlify logout
+                    netlify login
                     npm install netlify-cli
                     node_modules/.bin/netlify --version
                     echo "$NETLIFY_SITE_ID"
