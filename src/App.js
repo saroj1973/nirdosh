@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <h1>Nirdosh is Learning Javascript </h1>
+          <h1>Nirdosh is NOT Learning Javascript </h1>
         </p>
         <a
           className="App-link"
